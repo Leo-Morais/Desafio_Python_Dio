@@ -46,7 +46,7 @@ while True:
     elif opcao == 3:
         if extrato != "":
             print(extrato)
-            print(f"saldo total de: {saldo:.2f}")
+            print(f"saldo total de: R${saldo:.2f}")
         else:
             print("Não foram realizadas movimentações")
     
